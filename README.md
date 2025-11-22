@@ -18,14 +18,10 @@ CUDA_HOME=$CONDA_PREFIX pip install -v --disable-pip-version-check --no-cache-di
 
 # Run the code
 
-### Prepare the data
-Create a train.txt and val.txt file in the finetune folder
-Each line in the file is the path to the image
 
 ### Run the code
-copy path of train.txt and val.txt to config.yaml
 ```bash
-python finetune/training_custom_new.py
+python finetune/training_fused.py
 ```
 
 
